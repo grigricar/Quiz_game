@@ -41,8 +41,8 @@ Setting up the user-input loop so they could quit the program or ask for a new q
 -  <b> Could this easily be developed into a more user friendly GUI? </b>
 -  <b> It was not a requirement of the task, but it is possible for comparisons to be repeated. This would have to be solved in the function by using the '.remove' method to eliminate keys and entries from the list once they have been used.  </b>
 -  <b> Decomposition was essential even though parts had to be modified once adapting to code. The structure was essential. Constant evision and reflection are also required. </b>
-- <b></b>
-- <b>Could I change the x-axis on the one graph to reflect the days rather then the numbers. Would this be part of the lab() function?
+- <b> What more efficient solutions are there? I think a clever nested loop could be used in the function and randomisation process. </b>
+- <b> More case-splits could be used to deal with some of the potential user-imput variety eg (a.; A)?
   
 
 <!--
