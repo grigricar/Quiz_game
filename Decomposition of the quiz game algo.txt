@@ -1,0 +1,47 @@
+Decomposition of the quiz game algorithm
+
+
+> Set up the question bank
+	Set the values of the question bank to a dictionary which contains the predefined comparisons.
+
+> Engage the user in an interactive loop
+		Set the score count to zero
+		Set exit to False
+		Repeat while exit is False
+			Set user_input to ‘Enter “s” to show a flashcard and “q” to quit
+			If the user_input equals ‘q’
+				Set exit to True
+				Print “Number of correct answers” followed by the scorecount
+			Otherwise if the user_input equals ‘s’
+			>>Result equals show_flashcard
+			If the result equals True
+				Score_count must equal score_count plus 1.
+				Print ‘Correct’
+			Else:
+				Print ‘Incorrect’
+
+			>> Show_flashcard function
+
+				>>> Randomise the order of pairs from the question_bank
+				Set big_item equal to a random key from question_bank
+				Set small_item to the object value of the selected key.
+	
+				>>> Randomise the order of the pair selected
+				Set random_number to a random choice of 0 or 1
+					If random_number equals 0
+						Set first_random to big_item
+						Set second_random to small_item
+					Otherwise if random_number equals 1
+						Set first_random to small_item
+						Set second_random to big_item
+
+				>>> Ask for user input and determine if it is correct or not.
+				Display the question ‘Which is bigger?” and the required randomised pair.
+				Collect user_input to ‘Enter your guess A. or B. >’
+					If the user_input is A
+						Then set A to first_random.
+					Otherwise if user_input is B,
+						Set user_input to second_random
+					If user_input is equal to big_item
+						The function must return True
+
