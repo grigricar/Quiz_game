@@ -22,25 +22,26 @@ The is a Python coding project done in university as a final course assignment f
 - <b>Algorithmic Decomposition</b> 
 - <b>Basic dictionary structures</b>
 - <b>Functions</b>
-- <b>Basic dictionary structures</b>
 - <b>Case splits</b>
 - <b>'while' loops</b>
 
 <h2> Reflection and Questions</h2>
 
-The project did not draw from any external Python libraries, as such it forced us to stick to fundamentals and this was engaging. The decompostion process was unquestionably valuable. Forming the habit of breaking the problems down into subproblems, onto which recurring patterns cna be mapped, is critical in tackling more complex tasks. It is also time-saving, and is one of the most valued lessons I have taken away from the course.   
+The project did not draw from any external Python libraries, as such it forced us to stick to fundamentals and this was engaging. The decompostion process was unquestionably valuable. Forming the habit of breaking the problems down into subproblems, onto which recurring patterns cna be mapped, is critical in tackling more complex tasks. It is also time-saving, and is one of the most valued lessons I have taken away from the course. The subproblems I identified can be found in the "decompostion" document.    
  
 </br>
+The most challenging part of the project was to think of a way to randomise both the selection of comparaisons in the dictionary pairings, and then to also randomise the ordering of the pair found in the dictionary structure. Randomising the first requirement truned out to be trivial. Switching the actual pairings was more challenging/ I solved this by separating out the key and entry in the dictionariy into two separate lists. Based on a random selection of 0 or 1, I was able to assign the key and entry to variables that could be switched according to the 0 or 1 outcome. 
+</br>
+Setting up the user-input loop so they could quit the program or ask for a new question was delt within a while loop which terminates when the user enters 'q'. This section was not a difficult as initially thought. Inserting the entire flashcard function into the input section, knowing it worked, was the moment I knew the project would achieve its aims. Including a tally of correctly answered questions presented once the user quits, was an easy problem sovled with indexing variables inserted into key sections of the loop. 
+
+<br>Key takeaways and ideas to develop include:</br>
 
 </br>
-<br>What this project lacked was any more advanced look at the data. Some questions and points to chew on include:</br>
 
-</br>
-
--  <b>Could I play around more with ggplot2 in R to produce more clear and eye-catching graphs? </b>
--  <b>I would like to find more correlations between variables. I could have looked at temperature and weather influence on bike use, and investigated correlations with scatterplots, potentially building a basic regression model.  </b>
--  <b>The two datasets were merged. I could have done more to explore the differences between the two datasets to mark out what changes had occurred in the bike use over the period of a year.  </b>
-- <b>Could some additional research give more insight into the difference between local and tourist use? </b>
+-  <b> Could this easily be developed into a more user friendly GUI? </b>
+-  <b> It was not a requirement of the task, but it is possible for comparisons to be repeated. This would have to be solved in the function by using the '.remove' method to eliminate keys and entries from the list once they have been used.  </b>
+-  <b> Decomposition was essential even though parts had to be modified once adapting to code. The structure was essential. Constant evision and reflection are also required. </b>
+- <b></b>
 - <b>Could I change the x-axis on the one graph to reflect the days rather then the numbers. Would this be part of the lab() function?
   
 
