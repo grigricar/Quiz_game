@@ -15,7 +15,7 @@ The is a Python coding project done in university as a final course assignment f
 
 - <b>Python</b> 
 - <b>GitHub </b>
-- <b>Markdown </b>
+- <b>Basic HTML </b>
 
 <h2> Skills </h2>
 
